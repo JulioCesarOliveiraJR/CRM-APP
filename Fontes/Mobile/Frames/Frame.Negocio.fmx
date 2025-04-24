@@ -1,0 +1,58 @@
+object FrameNegocio: TFrameNegocio
+  Align = Client
+  HitTest = False
+  Size.Width = 171.000000000000000000
+  Size.Height = 75.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Contents
+    Fill.Kind = None
+    HitTest = False
+    Sides = [Bottom, Right]
+    Size.Width = 171.000000000000000000
+    Size.Height = 75.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFFEFEFEF
+  end
+  object lblEtapa: TLabel
+    Align = Top
+    StyledSettings = [Family]
+    Margins.Top = 5.000000000000000000
+    Position.Y = 5.000000000000000000
+    Size.Width = 171.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00060000000000000004000000}
+    TextSettings.FontColor = xFF1D1D1D
+    TextSettings.HorzAlign = Center
+    Text = 'Etapa'
+    TabOrder = 2
+  end
+  object lblQtd: TLabel
+    Align = Top
+    StyledSettings = [Family]
+    Position.Y = 29.000000000000000000
+    Size.Width = 171.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 13.000000000000000000
+    TextSettings.FontColor = xFF656565
+    TextSettings.HorzAlign = Center
+    Text = '17 neg'#243'cios'
+    TabOrder = 0
+  end
+  object lblValor: TLabel
+    Align = Top
+    StyledSettings = [Family]
+    Position.Y = 48.000000000000000000
+    Size.Width = 171.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 13.000000000000000000
+    TextSettings.FontColor = xFF656565
+    TextSettings.HorzAlign = Center
+    Text = 'R$ 18.500,00'
+    TabOrder = 1
+  end
+end
